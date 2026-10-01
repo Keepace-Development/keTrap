@@ -1,0 +1,29 @@
+# keTrap Ana Konfigurasyon
+language: tr
+
+trap:
+  spawn-world: Spawn
+  purchase-price: 100000.0
+  tnt-damage: 100.0
+
+# Partikul efektleri (Border pulse)
+particles:
+  enabled: true
+  interval: 60
+  owned-color: "#00FF00"
+  unowned-color: "#FF4500"
+  count: 1
+  size: 0.2
+
+# Giris/Cikis sesleri
+sounds:
+  enter:
+    enabled: true
+    sound: BLOCK_NOTE_BLOCK_PLING
+    volume: 0.4
+    pitch: 1.2
+  exit:
+    enabled: true
+    sound: BLOCK_NOTE_BLOCK_PLING
+    volume: 0.4
+    pitch: 0.8

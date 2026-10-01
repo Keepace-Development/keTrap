@@ -1,0 +1,41 @@
+name: keTrap
+version: 1.0
+main: com.ketrap.ketrap.keTrap
+api-version: "1.21"
+author: Keepace
+description: Trap sistemi
+softdepend: [Vault, PlaceholderAPI, dClans]
+
+commands:
+  trap:
+    description: Trap yonetim komutu
+    usage: /trap <altkomut> [argumanlar]
+
+permissions:
+  ketrap.admin:
+    description: keTrap admin yetkisi
+    default: op
+  ketrap.create:
+    description: Trap olusturma yetkisi
+    default: op
+  ketrap.buy:
+    description: Trap satin alma yetkisi
+    default: true
+  ketrap.use:
+    description: Trap kullanma yetkisi
+    default: true
+  ketrap.trust:
+    description: Trap yetkilendirme yetkisi
+    default: true
+  ketrap.admin.tnt:
+    description: Spawn dunyasinda TNT koyma yetkisi
+    default: op
+  ketrap.admin.build:
+    description: Spawn dunyasinda insaat yetkisi
+    default: op
+  ketrap.admin.fly:
+    description: Trap icinde ucus muafiyeti
+    default: op
+  ketrap.admin.enderpearl:
+    description: Spawn dunyasinda ender pearl kullanma
+    default: op
