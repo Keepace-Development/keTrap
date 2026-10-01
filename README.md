@@ -1,4 +1,4 @@
-# 🛡️ keTrap - Gelişmiş Minecraft Tuzak ve Yenileme Eklentisi
+# 🛡️ keTrap - Gelişmiş Minecraft Trap ve Yenileme Eklentisi
 
 `keTrap`, Minecraft sunucuları için sıfırdan, yüksek performans ve modülerlik odaklı geliştirilmiş profesyonel bir tuzak yönetim ve otomatik yenileme (`regeneration`) eklentisidir. Sunucu sahiplerine oyuncular için dinamik tuzak alanları kurma, bu alanları hassas koordinatlarla sınırlama, tetiklendiğinde veya süre aşımında blokları otomatik eski haline döndürme ve modern GUI sistemleri üzerinden tam kontrol sağlama imkanı tanır.
 
